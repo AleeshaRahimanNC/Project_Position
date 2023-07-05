@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+nav {
+    background-color: rgb(122, 10, 187);
+    padding: 1%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: large;
+    font-weight: 500;
+    color: #afc48b;
+}
+
+h2 {
+    color: yellow;
+}
+
+strong {
+    color: rgb(251, 0, 255);
+}
+
+section>div {
+    padding: 5%;
+}
+
+section>div * {
+    display: inline-block;
+}
+
+.danceform {
+    position: sticky;
+    top: 110px;
+    text-align: center;
+    vertical-align: top;
+    width: 20%;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.danceform>div {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    width: 60%;
+
+}
+
+.content>p {
+    padding-block-end: 2rem;
+    color: whitesmoke;
+    text-align: justify;
+    
+}
